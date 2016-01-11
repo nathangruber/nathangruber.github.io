@@ -1,13 +1,15 @@
+div{background-color: lightgrey;}
 html {
 	margin:0;
 }
 body {
+	
 	margin:0;
-	background-color:#8c7373
 }
+
 .header {
 	
-	font-family:Georgia, serif
+	font-family:Georgia, sans-serif;
 
 }
 .header {
@@ -17,3 +19,18 @@ body {
 #Me {
 	width:50%;
 }
+#container {
+position: relative;
+width: 800px;
+}
+#div1, #div2 {
+position: absolute;
+width: 400px;
+}
+#div1 {
+left: 0;
+}
+#div2 {
+left: 400px;
+}
+.
