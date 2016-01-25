@@ -37,9 +37,7 @@ h4 {
 h5 {
     visibility: hidden;
 }
-h3 {
-    visibility: hidden;
-}
+
 #top, #bottom, #left, #right {
     background: #000000;
     position: fixed;
@@ -60,4 +58,7 @@ h3 {
 
 p.thick {
     font-weight: bold;
+}
+i{color:#686868;
+
 }
