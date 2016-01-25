@@ -24,3 +24,16 @@ h1 {
 i {
     font-weight:bolder;
 }
+h4{
+  padding: 5px 40px 5px 40px;
+}
+
+h5{
+  padding: 5px 40px 5px 40px;
+}
+h4 {
+    visibility: hidden;
+}
+h5 {
+    visibility: hidden;
+}
