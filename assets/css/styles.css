@@ -57,3 +57,7 @@ h3 {
         }
         #top { top: 0; }
         #bottom { bottom: 0; }
+
+p.thick {
+    font-weight: bold;
+}
