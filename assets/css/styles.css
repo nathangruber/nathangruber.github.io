@@ -80,3 +80,7 @@ ul{
     height: 342px;
     background: url(IMG_7954.jpg) 0 0;
 }
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #000000;
+}
