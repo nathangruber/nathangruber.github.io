@@ -38,18 +38,12 @@ h5 {
     visibility: hidden;
 }
 
-#top, #bottom, #left, #right {
-    background: #696969;
-    position: fixed;
+#top, #bottom {
+    background: #000000;
+    position: relative;
     }
-    #left, #right {
-        top: 0; bottom: 0;
-        width: 10px;
-        }
-        #left { left: 0; }
-        #right { right: 0; }
-        
-    #top, #bottom {
+    
+ #top, #bottom {
         left: 0; right: 0;
         height: 10px;
         }
