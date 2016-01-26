@@ -60,13 +60,23 @@ i{color:#C0C0C0;
 ul{
     font:sans-serif;
 }
-#LFC{
-background-image:url('Liverpool-Logo-Wallpaper-Download-1024x576.jpg');
-width:1134px;
-height:228px;
+#daughter {
+    width: 1134px;
+    height: 456px;
+    background: url(IMG_0068.JPG) 0 0;
 }
-#Code{
-background-image:url('Liverpool-Logo-Wallpaper-Download-1024x576.jpg');
-width:1134px;
-height:228px;
+#code {
+    width: 1134px;
+    height: 456px;
+    background: url(maxresdefault.jpg) 0 0;
+}
+#lfc {
+    width: 1134px;
+    height: 456px;
+    background: url(Liverpool-Logo-Wallpaper-Download-1024x576.jpg) 0 0;
+}
+#family {
+    width: 256px;
+    height: 342px;
+    background: url(IMG_7954.jpg) 0 0;
 }
