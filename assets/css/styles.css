@@ -19,14 +19,14 @@ h1 {
     visibility: hidden;
 }
 h2{
-    color:#C0C0C0;
+    color:#FFFFFF;
 }
 h3{
-    color:#C0C0C0;
+    color:#FFFFFF;
 }
 i {
     font-weight:italic;
-    color:#C0C0C0;
+    color:#FFFFFF;
 }
 }
 h4{
@@ -59,9 +59,4 @@ i{color:#FFFFFF;
 }
 ul{
     font:sans-serif;
-}
-div {
-    background: url(IMG_0068.JPG);
-    background-size: 80px 60px;
-    background-repeat: no-repeat;
 }
