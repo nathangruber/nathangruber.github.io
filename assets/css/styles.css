@@ -48,7 +48,7 @@ p.thick {
     font-weight: bold;
     color:#FFFFFF;
 }
-i{color:#FFFFFF;
+i{color:#C0C0C0;
 
 }
 .box {
@@ -59,4 +59,14 @@ i{color:#FFFFFF;
 }
 ul{
     font:sans-serif;
+}
+#LFC{
+background-image:url('Liverpool-Logo-Wallpaper-Download-1024x576.jpg');
+width:1134px;
+height:228px;
+}
+#Code{
+background-image:url('Liverpool-Logo-Wallpaper-Download-1024x576.jpg');
+width:1134px;
+height:228px;
 }
