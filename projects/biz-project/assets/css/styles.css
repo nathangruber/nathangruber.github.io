@@ -1,0 +1,55 @@
+body {
+    background-color: #000000;
+}
+html {
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
+}
+
+h2{visibility:hidden;
+}
+div.home {
+	font-family:'Libre Baskerville', serif;
+	font-size: 25px;
+	color:#F8F8F8;
+	 padding-top:36px;
+ }
+div.col-md-8{
+	padding-top:36px;
+}
+
+
+
+div.products{
+   font-family:'Libre Baskerville', serif;
+   font-size: 20px;
+   background:-webkit-linear-gradient(#eee, #333);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top:20px;
+}
+div.image {
+    display:block;
+    position:relative;
+    overflow:hidden;
+    height: 400px
+}
+.image img{position:absolute;bottom:0;width:100%}
+
+div.abouttext{
+font-family:'Libre Baskerville', serif;
+	font-size: 14px;
+	color:#F8F8F8;
+	text-align:center;
+}
+div.col-md-12{
+	padding-top:36px;
+}
+div.about{
+	font-family:'Libre Baskerville', serif;
+	font-size: 12px;
+	color:#F8F8F8;
+	text-align:center;
+}
