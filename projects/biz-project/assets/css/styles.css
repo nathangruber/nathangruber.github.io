@@ -41,7 +41,9 @@ div.image {
 div.abouttext{
 font-family:'Libre Baskerville', serif;
 	font-size: 14px;
-	color:#F8F8F8;
+	background:-webkit-linear-gradient(#eee, #333);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 	text-align:center;
 }
 div.col-md-12{
