@@ -1,5 +1,6 @@
-body {
-    background-color: #000000;
+body{
+  background:#000000;
+}
 }
 html {
     margin-top:0px;
@@ -44,6 +45,7 @@ font-family:'Libre Baskerville', serif;
    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 	text-align:center;
+
 }
 div.col-md-12{
 	padding-top:36px;
