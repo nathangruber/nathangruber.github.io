@@ -1,5 +1,5 @@
 <footer>
-    <p><a href="sitemap.html">Site Map</a></p>
+    <p><a href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/sitemap.html">Site Map</a></p>
   </footer>
 <center>
       <p><small>'&copy; 2016 Blake's Butcher Shop'</small></p>

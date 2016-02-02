@@ -20,9 +20,6 @@
 
   </head>
 
-  
-
-
 
   <body>
 
@@ -34,17 +31,17 @@
        <div class="col-md-4">
          <h2>Site Map</h2>
         
-<p><a href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/index.html">Home Page</a></p>
+<p><a href="index.php">Home Page</a></p>
 <ul>
   <li> Introduction to Blake's Butcher Shop</li>
   <li> Photos</li>
  
 </ul>
-<p><a href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/contact.html">Contact Us</a></p>
+<p><a href="contact.php">Contact Us</a></p>
 <ul>
   <li> Email Form</li>
 </ul>
- <p><a href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/products.html">Our Meat</a></p>
+ <p><a href="products.php">Our Meat</a></p>
 <ul>
   <li>Our Meat</li>
   <li>The Animals</li>
@@ -53,19 +50,12 @@
   <li>Affordability</li>
   <li>Grass Fed vs. Grain Fed</li>
 </ul>      
-<p><a href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/about.html">About Blake's</a></p>
+<p><a href="about.php">About Blake's</a></p>
 <ul>
   <li> Meet the Butcher</li>
   <li> Photo</li>
   
 </ul>
-
-
-
-
-
-
-
 
        </div>
        </div>
