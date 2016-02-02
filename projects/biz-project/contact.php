@@ -33,7 +33,7 @@ require_once('navbar.php');
          <div class="col-md-4">
     
       
-         <h2>Contact Me</h2>
+         <h2></h2>
 <div class = "contactus">       
 <p>Contact Us</p> 
 </div>      
