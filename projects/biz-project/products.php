@@ -27,6 +27,9 @@
 <?php
 require_once('navbar.php');
 ?>
+<header class="main-header" role="banner">
+  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="308">
+    </header> 
 <h2></h2>
       <div class="container">
         <div class = "row">

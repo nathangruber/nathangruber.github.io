@@ -16,10 +16,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <link rel="icon" type="image/x-icon" href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/assets/img/6954.jpg"/>
-  
-
+   
   </head>
-
 
 
 
@@ -28,11 +26,11 @@
 <?php
 require_once('navbar.php');
 ?>
- 
-      <h2></h2>
+    <header class="main-header" role="banner">
+  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="408">
+    </header> 
 
-
-      <div class="container">
+<div class="container">
         <div class = "row">
          <div class="col-md-4">
 <div class = "home">       
@@ -43,14 +41,14 @@ require_once('navbar.php');
      </div>
    </div>
   <div class="col-md-8">
-     <img src="assets/img/beef-506456_1280.jpg" class="img-rounded" alt="Hanging Meat" width="700" height="408">
+     <img src="assets/img/0A32B0986D.jpg" class="img-rounded" alt="Hanging Meat" width="700" height="408">
    </div>
-    <div class="col-md-8">
-       <img src="assets/img/D89ESH3WK7.jpg" class="img-rounded" alt="Knife and Meat" width="700" height="408">
-      </div>
+   
+ 
 
 
 
+      
 
 <?php
 require_once('footer.php');

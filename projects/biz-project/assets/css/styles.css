@@ -1,32 +1,16 @@
 body{
   background:#000000;
     padding-top: 40px;
-    background-image: url("beef-506456_1280.jpg");
 }  
-
-h1{
-  background-image: url("beef-506456_1280.jpg");
-}  
-}
-html {
-    margin-top:0px;
-    margin-bottom:0px;
-    margin-right:0px;
-    margin-left:0px;
-}
-
-
 div.home {
 	font-family: 'Libre Baskerville', serif;
-	font-size: 25px;
+	font-size: 20px;
 	color:#F8F8F8;
 	 padding-top:30px;
  }
 div.col-md-8{
 	padding-top:36px;
 }
-
-
 
 div.products{
    font-family:'Libre Baskerville', serif;
@@ -71,4 +55,8 @@ div.contactus{
 font-family:'Libre Baskerville', serif;
   font-size: 24px;
   color:#F8F8F8;
+}
+.main-header {
+  text-align: center;
+  padding-top: 20px;
 }
