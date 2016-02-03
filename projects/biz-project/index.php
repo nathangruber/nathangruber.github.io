@@ -28,21 +28,21 @@ require_once('navbar.php');
 ?>
     <header class="main-header" role="banner">
   <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="408">
-    </header> 
+     </header> 
 
-<div class="container">
-        <div class = "row">
+            <div class="container">
+           <div class = "row">
          <div class="col-md-4">
-<div class = "home">       
+      <div class = "home">       
 <p><small>Blake’s is a family-owned and operated old-fashioned Milwaukee meat market with Spanish influences.</p>
 <p>The mission of our business is to connect families to the possibility of achieving a healthy diet with our local products. Our butcher shop has an old-fashioned feel that brings commitment to superior customer service.</small></p>
 <p><small>Our meat is locally raised. We will offer only premium products from local farmers who have raised their animals on either a primarily grass-based diet or in an organic manner as well as other dairy products and locally-grown vegetables.</small></p>                
-     
+      </div>
      </div>
-   </div>
-  <div class="col-md-8">
+            
+      <div class="col-md-8">
      <img src="assets/img/0A32B0986D.jpg" class="img-rounded" alt="Hanging Meat" width="700" height="408">
-   </div>
+    </div>
    
  
 

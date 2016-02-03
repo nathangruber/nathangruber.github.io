@@ -17,7 +17,7 @@
   <link rel="icon" type="image/x-icon" href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/assets/img/6954.jpg"/>
   <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
 <header class="main-header" role="banner">
-  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="308">
+  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="408">
     </header> 
 </head>
 

@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -28,10 +28,10 @@ s<!DOCTYPE html>
 <?php
 require_once('navbar.php');
 ?>
-<header class="main-header" role="banner">
-  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="308">
+    <header class="main-header" role="banner">
+  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="408">
     </header> 
-<h2></h2>
+
 <div class = "about">     
 <h1>About Blake's</h1>
 </div>

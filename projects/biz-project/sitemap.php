@@ -23,7 +23,7 @@
 
   <body>
     <header class="main-header" role="banner">
-  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="308">
+  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="408">
     </header> 
     
 

@@ -24,7 +24,7 @@ div.image {
     display:block;
     position:relative;
     overflow:hidden;
-    height: 400px
+    height: 100px
 }
 .image img{position:absolute;bottom:0;width:100%}
 
@@ -57,6 +57,7 @@ font-family:'Libre Baskerville', serif;
   color:#F8F8F8;
 }
 .main-header {
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
+  padding-left:10px;
 }
