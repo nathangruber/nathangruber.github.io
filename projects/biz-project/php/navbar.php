@@ -7,19 +7,17 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-       <a class="navbar-brand" href="index.html" id="black">Blake's Butcher Shop</a>
+       <a class="navbar-brand" href="index.php" id="black"></a>
      </div>
      <div id="navbar" class="collapse navbar-collapse">
        <ul class="nav navbar-nav">
-         <li><a href="index.html" class="black">Home</a></li>
-         <li><a href="contact.html" class="black">Contact</a></li>
-         <li><a href="products.html" class="black">Products</a></li> 
-         <li><a href="about.html" class="black">About</a></li>
+         <li><a href="index.php" class="black">Home</a></li>
+         <li><a href="contact.php" class="black">Contact</a></li>
+         <li><a href="products.php" class="black">Products</a></li> 
+         <li><a href="about.php" class="black">About</a></li>
        </ul>
      </div>
    </div>
  </nav>
-
- 
 
  

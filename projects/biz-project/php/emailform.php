@@ -1,4 +1,7 @@
 <?php
+
+require_once('navbar.php');
+
 echo $_POST['email'];
  
 if(isset($_POST['email'])) {

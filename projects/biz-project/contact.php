@@ -17,8 +17,8 @@
   <link rel="icon" type="image/x-icon" href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/assets/img/6954.jpg"/>
   <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
 <header class="main-header" role="banner">
-  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="408">
-    </header> 
+  <img src="assets/img/blakelogo.png" alt="Banner Image" width="400">
+     </header> 
 </head>
 
   
@@ -76,12 +76,7 @@ require_once('navbar.php');
         </div>
       </div>
      </div> 
-<div class="container">
-     <div class="col-md-8">
-     <img src="assets/img/ham-713138_640.jpg" class="img-rounded" alt="Employee cutting ham" width="640" height="428">
-      
-     </div>
-    </div><!-- /.container -->
+
 <?php
 require_once('footer.php');
 ?>

@@ -15,7 +15,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <link rel="icon" type="image/x-icon" href="file:///Users/ngruber/Dropbox/github/nathangruber.github.io/projects/biz-project/assets/img/6954.jpg"/>
-  
+  <header class="main-header" role="banner">
+  <img src="assets/img/blakelogo.png" alt="Banner Image" width="400">
+     </header> 
+
 
 
   </head>
@@ -28,13 +31,7 @@
 <?php
 require_once('navbar.php');
 ?>
-    <header class="main-header" role="banner">
-  <img src="assets/img/0A32B0986D.png" alt="Banner Image" width="600" height="408">
-    </header> 
-
-<div class = "about">     
-<h1>About Blake's</h1>
-</div>
+    
       <div class="container">
         <div class = "row">
         <div class="col-md-12">
@@ -53,14 +50,9 @@ Our butcher shop will work as shops did 50 years ago, just like when I helped my
         </div>
       </div>
     </div>
-        <div class="container">
-        <div class = "row">
-        <div class="col-md-12">
+        
 <div class="image">
-<img src="assets/img/thumbs-up-743066_1920.jpg" class="img-rounded" alt="Thumbs up" width="640" height="480">
-</div>
-</div>
-</div>
+<img src="assets/img/beef-506456_1280.jpg" class="img-rounded" alt="Thumbs up" width="640" height="1150">
 </div>
 
 
