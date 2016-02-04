@@ -29,7 +29,7 @@ if(isset($_POST['email'])) {
         echo $error."<br /><br />";
  
         echo "Please go back and fix these errors.<br /><br />";
- 
+        require_once('footer.php');
         die();
  
     }
