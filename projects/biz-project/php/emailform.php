@@ -139,7 +139,7 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
  
 @mail($email_to, $email_subject, $email_message, $headers);  
- 
+ require_once('footer.php');
 ?>
  
  
@@ -148,10 +148,10 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-Thank you for contacting us. We will be in touch with you very soon.
+Thank you for contacting Blake's Butcher Shop. We will be in touch soon.
  
  
- 
+
 <?php
  
 }
