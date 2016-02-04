@@ -35,7 +35,7 @@ require_once('navbar.php');
         <div class = "row">
          <div class="col-md-4">
  <div class = "products">         
-<p>Our meat is raised locally.<small>We will offer only premium products from local farmers who have raised their animals on either a primarily grass-based diet or in an organic manner as well as other dairy products and locally-grown vegetables. </small></p></div>
+<p>Our meat is raised locally.<small>We offer only premium products from local farmers who have raised their animals on either a primarily grass-based diet or in an organic manner as well as other dairy products and locally-grown vegetables. </small></p></div>
 <div class = "products"> 
 <p>Our animals are treated humanely.<small> These animals live natural stress-free lives, never treated with antibiotics, hormones, or fed animal-by-products and therefore produce healthy, great-tasting meat, milk and eggs. Their diets are GMO-free, and the grasses are never sprayed with pesticides. Our pastured beef is abundantly marbled ensuring a tender texture and a deep, rich flavor. By working in partnership with local farmers we guarantee our rigorous standards are always carefully maintained. </small></p></div>
 <div class = "products"> 
