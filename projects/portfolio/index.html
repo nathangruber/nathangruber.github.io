@@ -1,87 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nathan's Portfolio Page</title>
+    <meta name="author" content="Nathan Gruber">
+    <meta name="description" content="Nathan Gruber's Portfolio Site.">
 
-    <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <style>
-body {background-color:lightgrey;}
-h1   {color:#000000;}
-p    {color:#000000;}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/styles" href="assets/css/styles.css">
+   <!--font
+    custom favicon -->
 
-</style>
+    <title>Nathan Gruber</title>
+
+  </head>
+  
   <body>
-    <nav class="navbar navbar-inverse navbar-custom">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Nathan Gruber's Portfolio Site</a>
-  </div>
-    <ul class="nav navbar-nav">
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Coding Portfolio</a></li>
-      <li><a href="email.html">Contact Me</a></li>
-    </ul>
-  </div>
-</nav>
-
-       <div class="container">
-        <div class = "row">
-         <div class="col-lg-12">
-              <h1>About Me</h1>
-              <img id = "daughter" src="assets/img/IMG_0068.JPG" class="img-rounded" alt="My Daughter and I" height="375" width="667">
-         </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" alt="logo" src="make custom logo">
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-   </div>
-
-              <div class="container">
-                <div class = "row">
-                 <div class="col-lg-12">
+      <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a class="nav-link" href="blog.html">Blog</a></li>
+           
+            <li class="dropdown">
+              <a href="portfolio.html" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"><span class="sr-only">(current)</span></span></a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a class="nav-link" href="http://ec2-54-213-132-61.us-west-2.compute.amazonaws.com/e-commerce/index.php">Blake's Board Shop</a></li>
             
-             <h2>About</h2>
-              <p class="thick">See the guy with that cute baby in the river? That would be me. I'm Nathan Gruber. I am currently enrolled at devCodeCamp in Milwaukee, Wisconsin. I'm learning and hope to master PHP, HTML, CSS, and JavaScript. Currently I'm working at Ampco Pumps in the PD division, and I've recently earned my Associates of Science in Business Administration and Management from Cardinal Stritch University. I also help organize the MKE Code Slingers meetup group. Our focus is working on projects for the community and continued learning. Through this experience and devCodeCamp I've met so many talented people that have taught me so much. I am a husband, proud father, and Liverpool FC supporter. Check out my portfolio, or if you are really interested, head over to the contact page and send me an email.</p>
-       </div>
-      </div>
+              </ul>
+            </li>
+          </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+        <!-- LANDING IMAGE -->
+        <div class="jumbotron">
+          <div class="container-fluid">
+
+            <div class="row headline-banner">
+              <div class="col-md-7">
+                  <h1 id="my-name" class="headline headline-name">jumbotron banner with my pic/name,eventually</h1>
+                  <br>
+              </div><!--end col-->
+            </div><!--end row-->
+
+            <div class="row headline-banner hlb-bottom">
+              <div class="col-md-6">
+                <div id="bio">
+                  <p class="bio-story">info</p>
+                  <p class="bio-story">info</p>
+                  <p class="bio-story">grubernp@gmail.com</p>
+                </div>
+
+              </div><!--end col-->
+            </div><!--end row-->
+          </div><!--end container-fluid-->
+        </div><!--end jumbotron-->
+
+    <div class="container-fluid home-feat-bg">
+        <!-- FEATURED PROJECTS -->
+        <div class="row">
+           <div class="col-sm-12 col-xs-12 ">
+            
+            <h2 class="feat-head"></h2>
+            <hr>
+            
+          </div>
+        </div> 
     </div>
-           <div class="container">
-            <div class = "row">
-              <div class="col-lg-12">
-            
-             <h3>Why I Code?</h3>
-             <p class="thick">Code is fascinating. It's been a while since I was this excited about something. That is why I signed up for the LAMPP stack program at devCodeCamp. It is a part-time program. The classes run from Monday-Thursday, 5:30-10:00pm, and every other Saturday all day for 20 weeks. That doesn't seem bad, until I add taking care of my daughter, my current 40 hour a week job, maintaning a household, and most importantly maintaining my sanity. My family's support makes this all possible. And why the sacrifice? Throughout the years I have found that my life has been one big "catch up", constantly one step behind where I need to be. Something had to change, and change quickly. I now have the opportunity to fully immerse myself into a new skill. A skill that will launch me into the future. A skill that will challenge me and allow me to be creative. This skill will allow me to further develop myself. I refuse to get left behind. I refuse to look back on my life when I’m old wishing I had done more to make something of myself. My time is now and I choose “Yes.” An inspirational quote by Teddy Roosevelt best sums up how I feel about this challenge, <i>"It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat." - Theodore Roosevelt</i></p>
-              </div>
+
+    <div class="container-fluid footer">
+        <!-- FOOTER -->
+        <div class="row ">
+          <div class="col-sm-4 col-xs-12">
+            <h3>Pages</h3>
+                  <p>
+                    <a href="index.html" class="sitemap">Home&nbsp;</a>
+                    <a href="blog.html" class="sitemap">&nbsp;Blog</a>
+                  </p> 
+                  
+                  <p>
+                    <a href="portfolio.html" class="sitemap">Portfolio&nbsp;</a>
+                    <a href="sitemap.html" class="sitemap">&nbsp;Sitemap</a>
+                  </p>
+          </div>
+          <div class="col-sm-4 col-xs-12 social-box">
+            <h3>Social</h3>
+            <a href="https://github.com/nathangruber" target="_blank" class="social"><i class="fa fa-github-alt" title="GitHub"></i></a>
+             <a href="https://www.linkedin.com" target="_blank" class="social"><i class="fa fa-linkedin-square" title="LinkedIn"></i></a>
+              <a href="https://twitter.com/varnathangruber" target="_blank" class="social"><i class="fa fa-twitter" title="Twitter"></i></a>
+             <br />
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <h3>Contact :</h3>
+            <p>Nathan Gruber</p>
+            <p>414-687-4520</p>
+            <p>grubernp@gmail.com</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+              <center><p class="copyright">&copy;Nathan Gruber 2016</p></center>
             </div>
           </div>
-          <div class="container" style="width: 100%;">
- <div class="theme-table-image col-sm-6">
-   <img src="assets/img/maxresdefault.jpg" class="img-rounded" alt="Computer Code" height="375" width="667">
- </div>
- <div class="theme-table-image col-sm-6">
-   <img src="assets/img/Liverpool-Logo-Wallpaper-Download-1024x576.jpg" class="img-rounded" alt="Liverpool Logo" height="375" width="667">
- </div>
-</div>
+    </div><!--end footer container-->
 
-        
-<footer>
-  <p>&nbsp;Page by: Nathan Gruber</p>
-    <p>&nbsp;github page: <a href="https://github.com/nathangruber" target="_blank">https://github.com/nathangruber</a>.</p>
-  <a href="https://twitter.com/varnathangruber" class="twitter-follow-button" data-show-count="false">Follow @varnathangruber</a>
- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-   
-</footer>
-<center>
-      <p><small>'&copy; 2016 Nathan Gruber'</small></p>
-</center>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="assets/js/bootstrap.min.js"></script>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="assets/js/.js"></script>
+  
   </body>
-</html>
 
+</html>
