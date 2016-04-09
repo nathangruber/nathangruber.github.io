@@ -1,75 +1,75 @@
+html {
+  min-height: 100%;
+ }
 
-body {
-    
-    background-color: lightgrey;
-}
-#banner {
-position: static;
-top: 0px;
-left: 0px;
-right: 0px;
-width: 100%;
-height: 300px;
-z-index: -1;
+ body {
+  margin-left: auto;
+  margin-right: auto;   
+  padding: 0;
+  /*max-width: 1500px;*/
+  background: -webkit-radial-gradient(#676980, #535872, #1F3353);
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+ }
 
-}
-#board{
-    padding-right: 50px;
-    padding-left: 10px;
-    padding-top:10px;
+ .row {
+  margin-right: 0;
+ }
 
-}
-#long{
-    padding-right: 50px;
-    padding-left: 10px;
-    padding-top:10px;
-}    
-#truck{
-   padding-right: 50px;
-   padding-left: 10px;
-   padding-top:10px;
-}
-div.bbstext{
-font-family: 'Libre Baskerville', serif;
-	font-size: 20px;
-}
-div.bbstext1{
-font-family: 'Libre Baskerville', serif;
-	font-size: 20px;	
-}
-#container {
-position:relative;
-width:90%;
-margin-bottom:20px;
-margin-top:20px;
-margin-left:auto;
-margin-right:auto;
-padding-top:50px;
-padding-bottom:50px;
-}
-.leftimage {
-width:70%;
-float: left;
+ hr{
+  max-width: 80%;
+  border: 0;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+ }
+
+ /*NAVIGATION STYLES*/
+
+a.nav-link{
+  color: #FFFFFF !important;
+  font-size: 20px;
 
 }
-.righttext { 
-font-family: 'Libre Baskerville', serif;
-width: 50%;
-display: inline;
-padding-top:200px;
+
+a.nav-link:hover{
+  color: rgb(250, 105, 85) !important;
 }
-div.contactus{
-font-family:'Libre Baskerville', serif;
-  font-size: 18px;
-  color:#000000;
-}
-.navbar {
-    background-color: #000000;
-}
-.siteimage{
- padding-top:100px;
+
+
+
+ .navbar-default {
+
+  
+  background-color:rgba(0, 0, 0, .7);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  border-bottom: rgba(0, 0, 0, .5);
+  margin-bottom: 0;
+  text-align: left;
+  
+
+ }
+
+
+.dropdown-menu > li:hover > a {
+  background-color: #000000 !important;
+
 
 }
-.aboutimage{
-  padding-top:100px
+   ul li ul.dropdown-menu{
+        background-color: #000000 !important;
+        
+        z-index: 999;
+        text-align: left;
+    }
+
+  ul li:hover ul.dropdown-menu{
+
+        display: block; /* Display the dropdown */
+        position: absolute;
+    }
+
+.logo {
+   max-width: 20%;
 }
