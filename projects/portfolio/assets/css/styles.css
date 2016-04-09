@@ -180,38 +180,38 @@ a.nav-link:hover{
   opacity: .8;   
 }
 :-webkit-full-screen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     -webkit-background-size: contain;
     background-size: contain;
 }
 :-moz-full-screen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     background-size: contain;
 }
 :-ms-fullscreen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     background-size: contain;
 }
 :full-screen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     -webkit-background-size: contain;
     background-size: contain;
 }
 :-webkit-full-screen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     -webkit-background-size: contain;
     background-size: contain;
 }
 :-moz-full-screen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     background-size: contain;
 }
 :-ms-fullscreen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     background-size: contain;
 }
 :fullscreen .bss-fullscreen{
-    background: rgba(0,0,0,.4) url(http://leemark.github.io/better-simple-slideshow/img/compress_ffffff_64.png);
+    background: rgba(0,0,0,.4) url();
     -webkit-background-size: contain;
     background-size: contain;
 }
