@@ -7,9 +7,9 @@ html {
   margin-right: auto;   
   padding: 0;
   /*max-width: 1500px;*/
-  background: -webkit-radial-gradient(#00ffcc, #00b38f, #004d3d);
+  background: -webkit-radial-gradient(#FFFFFF,#FFFFFF,#fff7e6);
   color: #000000;
-  font-family: 'Lato', sans-serif;
+  font-family:;
  }
 
  .row {
@@ -67,7 +67,6 @@ a.nav-link:hover{
 .logo {
    max-width: 10%;
 }
-/* home page banner*/
 .jumbotron{
   background-image: url(../img/IMG_8534.JPG);
   background-size: cover;
