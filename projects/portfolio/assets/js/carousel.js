@@ -1,4 +1,4 @@
-   var makeBSS = function (el, options) {
+var makeBSS = function (el, options) {
     var $slideshows = document.querySelectorAll(el), // a collection of all of the slideshow
         $slideshow = {},
         Slideshow = {
@@ -167,4 +167,4 @@ var opts = {
     fullScreen : true, 
     swipe : true
 };
-makeBSS('.demo1', opts);    
+makeBSS('.demo1', opts);
