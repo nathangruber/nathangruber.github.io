@@ -50,12 +50,9 @@ a.nav-link:hover{
 
  }
 
-
-
-
 }
   ul li ul.dropdown-menu{
-        background-color: #ffffff;
+        background-color: #000000;
         
         z-index: 000000;
         text-align: left;
@@ -65,13 +62,22 @@ a.nav-link:hover{
 
 .logo {
    max-width: 10%;
-}
-.jumbotron{
-  background-image: url(../img/IMG_8534.JPG);
-  background-size: cover;
-  margin-top: 50px;
- }
 
+}
+.jumbotron {
+    position: relative;
+    background: #000 url(../img/IMG_0068.png) center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+/*.jumbotron{
+  background-image: url(../img/IMG_8534.png);
+  background-size: cover;
+  margin-top: 39px;
+ }
+*/
 
 /*carousel
 */
