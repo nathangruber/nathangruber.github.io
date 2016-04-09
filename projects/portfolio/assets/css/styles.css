@@ -167,7 +167,7 @@ a.nav-link:hover{
   display: block;
   width: 24px;
   height: 24px;    
-  background: rgba(0,0,0,.3) url(http://leemark.github.io/better-simple-slideshow/img/arrows-alt_ffffff_64.png); 
+  background: rgba(0,0,0,.3) ; 
   -webkit-background-size: contain; 
   background-size: contain;
   position: absolute;
