@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() {     //gets page ready for JS to be executed
 	$("#bio-btn").click(function(){
 		$("#bio").slideToggle(900, 'swing');
 	});
