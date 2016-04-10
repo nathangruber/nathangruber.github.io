@@ -70,12 +70,7 @@ a.nav-link{
     color: black;
 
 }
-/*.jumbotron{
-  background-image: url(../img/IMG_8534.png);
-  background-size: cover;
-  margin-top: 39px;
- }
-*/
+
  #banner {
 position: static;
 top: 0px;
@@ -363,7 +358,7 @@ textarea:focus, input:focus{
 
 .sitemap-link {
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
   
 
 }
