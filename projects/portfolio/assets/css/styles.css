@@ -86,6 +86,76 @@ height: 170px;
 z-index: -1;
 
 }   
+/*blog*/
+.blog-headline {
+  margin-bottom: 20px;
+}
+.blog-title {
+  margin-top: -10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 27px;
+  
+}
+
+#results-box{
+  text-align: center;
+}
+.blog-div{
+  text-align: center;
+}
+
+.blogPosts {
+  text-align: left;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 27px;
+  max-width: 600px;
+}
+
+
+
+.blog-feat-bg {
+  min-height: 65vh;
+  padding: 20px 40px 40px 40px;
+  
+  
+ }
+
+ .blog-hr {
+  
+    
+    max-width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    
+
+ }
+
+ .blog-link{
+  color: #FFFFFF;
+  
+  font-size: 18px;
+  padding: 2px 7px; 
+  border-bottom: 1px solid rgb(226, 75, 104);
+  
+  
+ }
+
+ .blog-link:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: rgba(226, 75, 104, 1);
+
+ }
+
+
+
+
 /*carousel
 */
 
