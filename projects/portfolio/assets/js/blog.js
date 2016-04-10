@@ -16,7 +16,7 @@ function blogposter(){
 			 
 	    			posts.push(p);
 				});
-				request_page(posts, 1);
+				requestPage(posts, 1);
 			});
 	
 	$('#search').keyup(function(){
@@ -38,13 +38,13 @@ function blogposter(){
 			 
 	        			posts.push(p);
 	    			}//if statement
-	    			request_page(posts, 1);
+	    			requestPage(posts, 1);
 				});//each function
 		    });//getJSON
 		} 	
 	});	  		
 }
-function request_page(page, pn){
+function requestPage(page, pn){
 
 	//POPULATING PAGE WITH BLOG POSTS
 
@@ -100,11 +100,11 @@ function request_page(page, pn){
 
 	$('#previous').click(function(){
 		pn = pn - 1;
-		request_page(page, pn);
+		requestPage(page, pn);
 	});
 	$('#next').click(function(){
 		pn = pn + 1;
-		request_page(page, pn);
+		requestPage(page, pn);
 	});
 
 }
