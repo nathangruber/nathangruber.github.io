@@ -30,10 +30,7 @@ a.nav-link{
 }
 
 
-
  .navbar-default {
-
-  
   background-color:;
   border-top: none;
   border-left: none;
@@ -45,17 +42,6 @@ a.nav-link{
 
 
  }
-
-
-  ul li ul.dropdown-menu{
-        background-color: #000000;
-        
-        z-index: #ffffff;
-        text-align: left;
-    }
-
-  
-
 .logo {
    max-width: 10%;
 
@@ -67,7 +53,7 @@ a.nav-link{
     height: 100%;
     background-size:cover ;
     overflow:hidden;
-    color: black;
+    color: white;
 
 }
 
@@ -80,7 +66,8 @@ width: 100%;
 height: 170px;
 z-index: -1;
 
-}   
+} 
+
 /*blog*/
 .blog-headline {
   margin-bottom: 20px;
@@ -259,16 +246,19 @@ z-index: -1;
 .social-box {
   border-left: 1px solid rgb(50, 50, 58);
   border-right: 1px solid rgb(50, 50, 58);
+  color:#ffffff;
 }
 .social {
   color: rgba(141, 141, 144, .7);
+    color:#ffffff;
+
 }
 
 
 .sitemap {
   font-size: 14px;
   color: rgba(141, 141, 144, .7);
-
+ color:#ffffff;
   
 }
 
@@ -277,7 +267,10 @@ z-index: -1;
   text-decoration: none;
 
 }
+.col-sm-4{
+ color:#ffffff;
 
+}
 .blog-search {
   margin-left: 20px;
   
@@ -416,8 +409,8 @@ textarea:focus, input:focus{
   position: absolute;
   font-family: sans-serif;
   font-size: 2rem;
-  bottom: 36em;
-  right: 46em;
+  bottom: 39em;
+  right: 52em;
   padding: .25em;
   color: #fff;
   background: #000;
