@@ -350,24 +350,15 @@ textarea:focus, input:focus{
 
 
 .sitemap-link {
-  text-align: center;
+  text-align: left;
   color: #000000;
   
 
 }
-
 .sitemap-link:hover {
   text-decoration: none;
   color: rgb(250, 105, 85);
-
 }
-
-
-
-
-
-
-
 /*carousel
 */
 
@@ -409,7 +400,7 @@ textarea:focus, input:focus{
   position: absolute;
   font-family: sans-serif;
   font-size: 2rem;
-  bottom: 39em;
+  bottom: 35em;
   right: 52em;
   padding: .25em;
   color: #fff;

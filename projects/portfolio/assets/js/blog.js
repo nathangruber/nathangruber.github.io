@@ -108,6 +108,7 @@ function requestPage(page, pn){
 	});
 
 }
+//slideshow
 var makeBSS = function (el, options) {
     var $slideshows = document.querySelectorAll(el), // a collection of all of the slideshow
         $slideshow = {},
