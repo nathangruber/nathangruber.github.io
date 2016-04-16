@@ -21,7 +21,10 @@ html {
  }
 
  /*NAVIGATION STYLES*/
-
+#navlogo {
+  width: 250px;
+  margin-top: -11px;
+}
 a.nav-link{
   color: #000000;
   font-size: 25px;
@@ -358,6 +361,7 @@ textarea:focus, input:focus{
   text-decoration: none;
   color: rgb(250, 105, 85);
 }
+
 /*carousel
 */
 
