@@ -322,7 +322,7 @@ textarea:focus, input:focus{
 */
 
 .bss-slides{
-  background: #000;
+  background: #141, 141, 144, .7;
   position: relative;
   display: block;    
 }
@@ -362,9 +362,9 @@ textarea:focus, input:focus{
   bottom: 350px;
   right: 50px; 
   padding: .25em;
-  color: #ffffff;
+  color: #141, 141, 144, .7;
   background: #000;
-  background: rgba(0,0,0, .25);
+  background: rgba(141, 141, 144, .7);
   border-radius: 2px;
   opacity: 0;
   -webkit-transition: opacity 1.2s;
@@ -380,8 +380,8 @@ textarea:focus, input:focus{
 .bss-next, .bss-prev{
   color: #fff;
   position: absolute;
-  background: #000;
-  background: rgba(0,0,0, .6);
+  background: #141, 141, 144, .7;
+  background: rgba(141, 141, 144, .7);
   top: 50%;
   z-index: 4;
   font-size: 2em;
