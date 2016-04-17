@@ -22,8 +22,8 @@ html {
 
  /*NAVIGATION STYLES*/
 #navlogo {
-  width: 250px;
-  margin-top: -11px;
+  width: 230px;
+  margin-top: -5px;
 }
 a.nav-link{
   color: #000000;
@@ -236,7 +236,7 @@ z-index: -1;
 
 
 .fa {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 5px 10px 5px;
   
 }
