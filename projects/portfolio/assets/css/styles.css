@@ -22,17 +22,15 @@ html {
 
  /*NAVIGATION STYLES*/
 #navlogo {
-  width: 230px;
-  margin-top: -5px;
+  width: 200px;
+  margin-top: -2px;
 }
 a.nav-link{
   color: #000000;
   font-size: 25px;
 
 }
-
-
- .navbar-default {
+.navbar-default {
   background-color:;
   border-top: none;
   border-left: none;
@@ -79,7 +77,6 @@ z-index: -1;
   margin-bottom: 30px;
   margin-left: 10px;
   padding: 5px 10px;
-  text-transform: uppercase;
   display: inline-block;
   font-size: 27px;
   
@@ -100,9 +97,6 @@ z-index: -1;
   line-height: 27px;
   max-width: 600px;
 }
-
-
-
 .blog-feat-bg {
   min-height: 65vh;
   padding: 20px 40px 40px 40px;
@@ -111,14 +105,10 @@ z-index: -1;
  }
 
  .blog-hr {
-  
-    
     max-width: 100%;
     border: 0;
     border-top: 1px solid rgba(255, 255, 255, .2);
-    
-
- }
+}
 
  .blog-link{
   color: #FFFFFF;
@@ -126,9 +116,7 @@ z-index: -1;
   font-size: 18px;
   padding: 2px 7px; 
   border-bottom: 1px solid rgb(226, 75, 104);
-  
-  
- }
+}
 
  .blog-link:hover {
   text-decoration: none;
@@ -146,24 +134,6 @@ z-index: -1;
   margin-right: auto;
   border-radius: 10px 10px 0 0;
  }
-
-
- .flip3D > .back{
-
-  display: none;
-
- }
-
- .flip3D:hover > .front{
-  display: none;
-  -webkit-transform: perspective(600px) rotateY(-180deg);
- }
-
-  .flip3D:hover > .back{
-    display: block;
-  -webkit-transform: perspective(600px) rotateY( 0deg);
- }
-
  .proj-link{
   display: inline-block;
   color: #FFFFFF;
@@ -232,9 +202,6 @@ z-index: -1;
   color: rgba(141, 141, 144, .7);
  
 }
-
-
-
 .fa {
   font-size: 40px;
   margin: 0 5px 10px 5px;
@@ -255,8 +222,6 @@ z-index: -1;
     color:#ffffff;
 
 }
-
-
 .sitemap {
   font-size: 14px;
   color: rgba(141, 141, 144, .7);
@@ -275,8 +240,6 @@ z-index: -1;
 }
 .blog-search {
   margin-left: 20px;
-  
-
 }
 
 input {
@@ -288,7 +251,7 @@ input {
   font-size: 18px;
   padding-left: 10px;
   text-align: center;
-  background-color: rgba(226, 75, 104, .2);
+  background-color: rgba(141, 141, 144, .7);
   border: 1px solid rgba(226, 75, 104, .8);
 }
 
@@ -344,13 +307,6 @@ textarea:focus, input:focus{
   border: 1px solid rgba(120, 143, 181, .8);
   color: rgba(255, 255, 255, .4);
 }
-
-.disbtn:hover {
-  background-color: transparent;
-}
-
-
-
 .sitemap-link {
   text-align: left;
   color: #000000;
