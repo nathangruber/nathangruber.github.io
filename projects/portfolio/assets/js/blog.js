@@ -38,7 +38,7 @@ function blogOutput() {
 	});
 }
 
-function requestPage(page, pn) {  //POPULATING PAGE WITH BLOG POSTS
+function requestPage(page, pn) { //POPULATING PAGE WITH BLOG POSTS
 	var tp = page.length; //total posts
 	var ipp = 3; //items per page
 	var last = Math.ceil(tp / ipp); //number of pages
