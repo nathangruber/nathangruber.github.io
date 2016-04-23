@@ -286,10 +286,10 @@ textarea:focus, input:focus{
 }
 
 .page-control {
-  font-size: 30px;
+  font-size: 18px;
   padding: 0 10px;
-  background-color: rgba(226, 75, 104, .4);
-  border: 1px solid rgba(226, 75, 104, .8);
+  background-color: rgba(141, 141, 144, .7);
+  border: 1px solid rgba(141, 141, 144, .7);
   border-radius: 10px;
 }
 
