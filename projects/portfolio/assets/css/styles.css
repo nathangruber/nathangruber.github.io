@@ -317,8 +317,6 @@ textarea:focus, input:focus{
   text-decoration: none;
   color: rgb(250, 105, 85);
 }
-
-
  /* jssor slider arrow navigator skin 02 css */
         /*
         .jssora02l                  (normal)
@@ -337,8 +335,6 @@ textarea:focus, input:focus{
             cursor: pointer;
             background: url('assets/img/a02.png') no-repeat;
             overflow: hidden;
-            margin-top: 80px;
-
         }
         .jssora02l { background-position: -3px -33px; }
         .jssora02r { background-position: -63px -33px; }
