@@ -412,7 +412,6 @@ textarea:focus, input:focus{
             width /**/: 62px;
             height /**/: 32px;
         }
-h2{
-  color:#000000;
-  
+.col-sm-6{
+display: inline-block;
 }
