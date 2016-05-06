@@ -415,3 +415,6 @@ textarea:focus, input:focus{
 .col-sm-6{
 display: inline-block;
 }
+p {
+    font-size: 26px;
+}
