@@ -31,7 +31,7 @@ a.nav-link{
 
 }
 .navbar-default {
-  background-color:;
+  background-color:(0, 0, 0, 0);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -41,7 +41,33 @@ a.nav-link{
   text-align: left;
 
 
- }
+ } 
+ a.nav-link{
+  color: #8c8c8c !important;
+  font-size: 23px;
+
+}
+
+a.nav-link:hover{
+  color: rgb(250, 105, 85) !important;
+}
+
+.dropdown-menu > li:hover > a {
+  background-color: #000000 !important;
+
+
+}
+ul li ul.dropdown-menu{
+  background-color: #000000 !important;
+  z-index: 999;
+  text-align: left;
+}
+
+ul li:hover ul.dropdown-menu{
+  display: block; /* Display the dropdown */
+  position: absolute;
+}
+
 .logo {
    max-width: 10%;
 
