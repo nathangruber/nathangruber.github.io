@@ -43,13 +43,13 @@ a.nav-link{
 
  } 
  a.nav-link{
-  color: #8c8c8c !important;
+  color: #808080 !important;
   font-size: 23px;
 
 }
 
 a.nav-link:hover{
-  color: rgb(250, 105, 85) !important;
+  color: rgb(0, 172, 237) !important;
 }
 
 .dropdown-menu > li:hover > a {
@@ -58,7 +58,7 @@ a.nav-link:hover{
 
 }
 ul li ul.dropdown-menu{
-  background-color: #000000 !important;
+  background-color: #FFFFFF !important;
   z-index: 999;
   text-align: left;
 }
@@ -235,7 +235,7 @@ z-index: -1;
 }
 
 .fa:hover {
-  color: rgb(250, 105, 85);
+  color: rgb(0, 172, 237);
 }
 
 .social-box {
@@ -256,7 +256,7 @@ z-index: -1;
 }
 
 .sitemap:hover {
-  color: rgb(250, 105, 85);
+  color: rgb(0, 172, 237);
   text-decoration: none;
 
 }
@@ -341,7 +341,7 @@ textarea:focus, input:focus{
 }
 .sitemap-link:hover {
   text-decoration: none;
-  color: rgb(250, 105, 85);
+  color: rgb(0, 172, 237);
 }
  /* jssor slider arrow navigator skin 02 css */
         /*
