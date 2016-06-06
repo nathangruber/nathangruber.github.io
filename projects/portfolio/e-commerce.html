@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" type="text/styles" href="assets/css/styles.css">
+    <link href="assets/css/half-slider.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -51,129 +52,62 @@
     </div><!-- /.container-fluid -->
   </nav>
  
- <script type="text/javascript" src="assets/js/jssor.slider.min.js"></script>
-    <!-- use jssor.slider.debug.js instead for debug -->
-    <script>
-        jssor_1_slider_init = function() {
-            
-            var jssor_1_options = {
-              $AutoPlay: true,
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $ThumbnailNavigatorOptions: {
-                $Class: $JssorThumbnailNavigator$,
-                $Cols: 9,
-                $SpacingX: 3,
-                $SpacingY: 3,
-                $Align: 260
-              }
-            };
-            
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-            
-            //responsive code begin
-            //you can remove responsive code if you don't want the slider scales while window resizing
-            function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 600);
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-            ScaleSlider();
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            //responsive code end
-        };
-    </script>
-    <br>
-  </div><img id="banner" src="assets/img/skatelogo.png" alt="Banner Image">   
-    <br>
-    <br>
-    <div class="container" style="width: 100%;">
- <div class="theme-table-image col-sm-6">
-    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/002.jpg" />
-                <img data-u="thumb" src="assets/img/thumb-002.jpg" />
+<header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/003.jpg" />
-                <img data-u="thumb" src="assets/img/thumb-003.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/004.jpg" />
-                <img data-u="thumb" src="assets/img/thumb-004.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/005.jpg" />
-                <img data-u="thumb" src="assets/img/thumb-005.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/006.jpg" />
-                <img data-u="thumb" src="assets/img/thumb-006.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/007.jpg" />
-                <img data-u="thumb" src="assets/img/thumb-007.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/008.jpg" />
-                <img data-u="thumb" src="assets/img/008.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/009.jpg" />
-                <img data-u="thumb" src="assets/img/009.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="assets/img/010.jpg" />
-                <img data-u="thumb" src="assets/img/010.jpg" />
-            </div>
-            
-        
-        </div>
-        <!-- Thumbnail Navigator -->
-        <div u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:0px;width:600px;height:60px;" data-autocenter="1">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; background-color: #000; filter:alpha(opacity=30.0); opacity:0.3;"></div>
-            <!-- Thumbnail Item Skin Begin -->
-            <div u="slides" style="cursor: default;">
-                <div u="prototype" class="p">
-                    <div class="w">
-                        <div u="thumbnailtemplate" class="t"></div>
-                    </div>
-                    <div class="c"></div>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
                 </div>
             </div>
-            <!-- Thumbnail Item Skin End -->
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
         </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
-    </div>
-    </div>
-    <script>
-        jssor_1_slider_init();
-    </script>
-<div class="theme-table-image col-sm-6">
-   <p>Blake's Board Shop is a faux e-commerce website I built to show my proficiency using LAMPP stack. LAMPP stack uses PHP, HTML5, CSS3, mySQL, phpMyAmin, and I also used little bit of Javascript. CRUD(create, read, update, and delete) interface was the foundation of the website. Click on any image in the slideshow to take you to a specfic page in the site. It is fully functional, and feel free to register an account so you can see the functionality. Thank you for visiting, and if you have any questions please contact me.</p>
-   <!-- <img src="assets/img/text.png" hspace="20" >  -->
- </div>
-</div>
-    <br>
-    <br>
 
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+            <div class="col-lg-12">
+                <h1>Blake's Board Shop</h1>
+                <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>half-slider.css</code>file.</p>
+            </div>
+        </div>
+
+        <hr>
+   <!--<p>Blake's Board Shop is a faux e-commerce website I built to show my proficiency using LAMPP stack. LAMPP stack uses PHP, HTML5, CSS3, mySQL, phpMyAmin, and I also used little bit of Javascript. CRUD(create, read, update, and delete) interface was the foundation of the website. Click on any image in the slideshow to take you to a specfic page in the site. It is fully functional, and feel free to register an account so you can see the functionality. Thank you for visiting, and if you have any questions please contact me.</p> -->
+   <!-- <img src="assets/img/text.png" hspace="20" >  -->
+ 
     
   
 <div class="container-fluid footer">
@@ -213,6 +147,11 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="assets/js/blog.js"></script>
+     <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
     
   
   </body>
