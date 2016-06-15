@@ -1,27 +1,34 @@
 {"entries":[
 {
 	"date":"04/10/2016", 
-	"title":"Deep Thoughts with Nate Gruber on Javascript Scope", 
+	"title":"Deep Thoughts by Nate Gruber on Javascript Scope", 
 	"text":"<p class=\"blogPosts\">I wanted to share the knowledge I learned today about Javascript Scope and Closures. I found the tutorial on W3 schools very informative. In Javascript variables can belong to the local or global scope. A local variable can only be used inside the function where it is defined. It is hidden from other functions and other scripting code. Global and local variables with the same name are different variables. Modifying one, does not modify the other. Private variables can be made possible with closures in Javascript. My deep thought on this is that you should know this.<\/p>"
 },
 {
 	"date":"04/13/2016", 
-	"title":"Deep Thoughts with Nate Gruber on the <i>this</i> Keyword in Javascript", 
+	"title":"Deep Thoughts by Nate Gruber on the <i>this</i> Keyword in Javascript", 
 	"text":"<p class=\"blogPosts\">The <i>this</i> keyword in Javascript can be very confusing to a new developer. The javascript.isSexy blog explains it well. The blog runs through the basics, and clearly defines the different uses for the keyword. I read this post so I can understand the keyword better because I am starting to use Object Oriented Programming in Javascript. If you are in a similar situation or just want to review it is an excellent blog. The blog was written in 2013, but remains spot on. My deep thoughts on the <i>this</i> keyword is that it is vital to know if you are going to use OOP in Javascript or other coding languages.<\/p>"
 },
 {
 	"date":"04/21/2016", 
-	"title":"Deep Thoughts with Nate Gruber on Javascript Inheritance", 
+	"title":"Deep Thoughts by Nate Gruber on Javascript Inheritance", 
 	"text":"<p class=\"blogPosts\">Inheritance is a very important aspect of many programming languages, Javascript is not any different. Douglas Crockford breaks down Inheritance very well in his book, \"Javascript: The Good Parts.\" The book was published in 2008 but still holds true today. Inheritance in programming has its benefits. The two main benefits of inheritance the Crockford talks about are, it allows you to reuse code. This creates less and more readable code for applications, in turn saves time in the development process. The other main benefit is that it includes the specification of system types. This means that programmers can freely write specific casting operations, which makes the process safer for the programmers because a type system can be lost. Javasctipt never casts, the lineage of the object does not matter. What the object does is what matters and Crockford breaks this down beautifully. Crockford's chapter then goes into the other inheritance patterns that you can use in Javascript. My Deep Thoughts on this are that anyone who is learning Javascript OOP or wants to review it should read Douglas Crockford's chapter on inheritance in his book, \"Javascript: The Good Parts.\"<\/p>"
 },
 {
 	"date":"04/23/2016", 
-	"title":"Deep Thoughts with Nate Gruber on Prototypal Inheritance", 
+	"title":"Deep Thoughts by Nate Gruber on Prototypal Inheritance", 
 	"text":"<p class=\"blogPosts\">As I continue to read Douglas Crockford's \"Javascript: The Good Parts\", I keep on understanding Javascript inheritance better and better. Prototypal Inheritance can be especially confusing for a Javascript newbie. Crockford breaks it down very well. Prototypal Inheritance focuses on objects, which is different than classical inheritance that is class based. A new object can inherit properties of an old object. This concept was unfamiliar to me coming from PHP OOP. I would recommend reading this chapter because there is a very explicit example showing this. I learn better by seeing and doing then just trying to comprehend reading material. My Deep Thoughts on this are the same as my last blog post, that anyone who is learning Javascript OOP or wants to review it should read Douglas Crockford's chapter on inheritance in his book, \"Javascript the Good Parts\". <\/p>"
 },
 {
 	"date":"05/01/2016", 
-	"title":"Deep Thoughts with Nate Gruber on D3.js, and visualizing data", 
+	"title":"Deep Thoughts by Nate Gruber on D3.js, and visualizing data", 
 	"text":"<p class=\"blogPosts\">I have recently been researching how to visualize data for a Javascript project I am working on. I chose to work with D3.js for a number of reasons. The scribblelive.com/blog written by: Drew Skau lists the many advantages really well. D3.js main selling point is that it works across all browsers without having to use any kind of plugin. This simplifies a lot for a developer. Another reason D3.js works well is because it is flexible. It works seamlessly with web technologies to manipulate any part of the DOM. D3.js takes advantage of the built in functions in your browser, therefore simplifying the developer's job once again. This is my first dive into data visualization, so documentation, examples, and a good supportive community were key for me in my choosing and learning process. I will give an update on how this goes next week. My deep thoughts about D3.js are still in development as I take on this project. <\/p>"
+},
+{
+	"date":"06/14/2016", 
+	"title":"Deep Thoughts by Nate Gruber on blogging", 
+	"text":"<p class=\"blogPosts\">Hello, loyal \"Deep Thoughts\" followers. I just wanted to apologize for not blogging for over a month. My time has been consumed with finishing my favorite new app hikeMe, and reassimilating myself back into society after my coding bootcamp experience. If you want to see my app checkout the hikeMe page and link on this site. The app allows you to search, plan, remember , and share your hikes. A lot of blood, sweat, and tears went into that app and I am very proud of it. As far as \"Deep Thoughts\" goes, I am not entirely sure if I want to continue in the format it is in now. \"Deep Thoughts\" comes from a Saturday Night Live skit I used to like when I was a kid. Here is a link to the SNL skit: <a class\"blog-link\" href=\"http://www.nbc.com/saturday-night-live/video/deep-thoughts-favorite-uncle/n10278 \" target=\"_blank\">Deep Thoughts by Jack Handey<\/a> . My deep thoughts about this are please let me know what you like and do not like about my blog. Thank you.<\/p>"
 }
-]}
+
+
+]}																																																																																																																																																																																														
