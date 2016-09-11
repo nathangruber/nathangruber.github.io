@@ -74,7 +74,8 @@ ul li:hover ul.dropdown-menu{
 }
 .jumbotron {
     position:static;
-    background: #000 url(../img/image1.png)center center;
+    /*background: #000 url(../img/image1.png)center center;*/
+    background: #000000 url(../img/image1.png) no-repeat fixed center; 
     width: 100%;
     height: 100%;
     background-size:cover ;
@@ -364,4 +365,8 @@ p {
 .hikeLink{
   float: right;
 
+}
+
+.mylogo{
+	width: 200px;
 }
